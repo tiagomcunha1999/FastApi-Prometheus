@@ -1,0 +1,8 @@
+global: 
+  scrape_internal: 5s
+
+scrape_configs:
+  - job_name: 'coin-api'
+  static_configs:
+   - targets: ['coin-api:5000']
+   
